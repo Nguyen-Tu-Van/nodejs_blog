@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Nguyen-Tu-Van/nodejs_blog#readme",
   "lint-staged": {
-    "src/**/*.{js,scss,json}" : "prettier --single-quote --trailing-comma all --write  --tabwidth 4"
+    "src/**/*.{js,scss,json}" : "prettier --single-quote --trailing-comma all --write  --tab-width 4"
   },
   "husky" : {
     "hooks": {
