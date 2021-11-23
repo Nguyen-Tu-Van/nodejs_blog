@@ -11,9 +11,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 //HTTP logger
 app.use(morgan('combined'));
 // body
-    app.use(
+app.use(
   express.urlencoded({
-      extended: true,
+    extended: true,
   }),
 );
 //Template engine
