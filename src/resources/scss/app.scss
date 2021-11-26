@@ -4,3 +4,34 @@ h1 {
     color: red;
     background-color: $color-blue;
 }
+
+.row {
+    padding: 1em;
+}
+.card {
+    margin-top: 1em;
+}
+.card .card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.img {
+    width: 100px;
+    display: block;
+    border-radius: 3px;
+}
+
+.btn-danger {
+    margin-top: 2px;
+    color: white !important;
+}
+.form-group .form-control {
+    width: 200px;
+}
+.d-flex {
+    align-items: center;
+}
